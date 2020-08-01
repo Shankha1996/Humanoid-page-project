@@ -1,0 +1,195 @@
+body{
+  overflow-x: hidden!important;
+  font-family: 'Lato', sans-serif!important;
+  color: #505962!important;
+}
+
+/* Navigation Bar section */
+
+.navbar{
+  font-weight: 700;
+  font-size: 14.4px;
+  letter-spacing: 1.6px;
+  background: rgba(0, 0, 0, 0.6)!important
+  ;
+}
+
+.navbar-brand img{
+  height: 32px;
+}
+
+.navbar-nav li{
+  padding-right: 11.2px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white!important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3!important;
+}
+
+/* Banner: landing page section */
+
+.home-inner{
+  background-image: url(../images/computers.png);
+}
+
+.caption{
+  width: 100%;
+
+  position: absolute;
+  top: 38%;
+  color: #ffffff;
+  z-index: -1;
+}
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: .8rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg {
+  border-width: medium!important;
+  border-radius: 0!important;
+  padding: .6rem 1.3rem!important;
+  font-size: 1.1rem!important;
+}
+
+/* COURSE SECTION */
+.narrow{
+  width: 75%;
+  margin: 24px auto;
+  padding-top: 32px;
+}
+
+.narrow h1{
+  font-size: 2.4rem!important;
+}
+
+.btn-secondary {
+  border-width: medium!important;
+  border-radius: 0!important;
+  text-transform: uppercase!important;
+  font-size: 1.2rem!important;
+  padding: .6rem 1.2rem!important;
+  margin: 1rem!important;
+  color: white!important;
+  background-color: #1ebba3!important;
+  border-color: #1ebba3!important;
+}
+
+.btn-secondary:hover {
+  background-color: #189582!important;
+  border-color: #189582!important;
+}
+
+/* FEATURE SECTION */
+
+.jumbotron{
+  margin-bottom: 0!important;
+  padding: 2rem 0 3.5rem!important;
+  border-radius: 0!important;
+}
+
+.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 0 auto 2rem;
+}
+
+.fab{
+  color: #1ebba3;
+  margin-top: 30px;
+}
+
+.feature{
+  margin: 0 20px;
+}
+
+.feature h3 {
+  font-size: 1.3rem!important;
+  text-transform: uppercase!important;
+  padding-bottom: .4rem!important;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.feature p {
+  font-size: 20px;!important;
+}
+
+/* RESOURCES SECTION */
+
+.fixed{
+  background-image: url(../images/apple.png);
+  z-index: -1;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+/* CLIENT SECTION */
+
+.clients img {
+  width: 100%;
+  border-radius: 50%;
+}
+.clients-hr {
+  border-top: .05rem solid #1ebba3;
+}
+
+.col-md-6{
+  margin: 30px auto;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 2rem;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+
+footer a {
+  color: white;
+}
+
+.fab{
+  margin: 0 10px;
+}
+
+
+
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
